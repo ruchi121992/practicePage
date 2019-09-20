@@ -1,0 +1,32 @@
+<html>
+<script type="text/javascript">
+	
+/*write a function to calculate age that takes your date of birth and returns your age.
+sample function input
+calculateAge(28,02,1992)
+output-27*/
+//code starts here
+
+calculateAge(12,05,1992);
+
+		function calculateAge(day,month,year) 
+
+		{
+
+		var today=new Date();
+
+		var birthDate= new Date(year,month,day);
+
+		var age=today.getFullYear() - birthDate.getFullYear();
+
+		var m =today.getMonth() - birthDate.getMonth();
+
+		return age;
+
+		}
+
+module.exports = { calculateAge: calculateAge};
+
+
+</script>
+</html>
