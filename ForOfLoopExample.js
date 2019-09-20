@@ -21,6 +21,8 @@ for(x of customers){
 }
 
 
+
+
 //for in loop example with object.
 
 let singleUser = {
